@@ -1,0 +1,136 @@
+header {
+  background-color: #aebdca;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  background-color: #aebdca;
+}
+
+#game-board {
+  text-align: center;
+  background-color: #7895b2;
+}
+
+#betting {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  background-color: #7895b2;
+}
+
+#betting button {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: orange;
+  opacity: 0.6;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
+  gap: 5px;
+  border-radius: 15px;
+}
+
+#betting button:hover {
+  opacity: 1;
+}
+
+main {
+  background-color: #aebdca;
+}
+
+#dealer-cards {
+  background-color: #7895b2;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#dealer-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#your-cards {
+  background-color: #7895b2;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#your-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#play-buttons button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  background-color: black;
+  color: orange;
+  opacity: 0.6;
+  width: 180px;
+  height: 120px;
+  padding: 5px;
+  margin: 10px;
+  gap: 5px;
+  border-radius: 15px;
+}
+
+#play-buttons button:hover {
+  opacity: 1;
+}
+
+#replay-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  background-color: black;
+  color: orange;
+  opacity: 0.6;
+  width: 180px;
+  height: 120px;
+  padding: 5px;
+  margin: 10px;
+  gap: 5px;
+  border-radius: 15px;
+}
+
+#replay-button:hover {
+  opacity: 1;
+}
+
+.show {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#log-in {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: large;
+  background-color: #f5efe6;
+}
+
+.db-button {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: orange;
+  opacity: 0.6;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
+  gap: 5px;
+  border-radius: 15px;
+}
+
+.db-button:hover {
+  opacity: 1;
+}/*# sourceMappingURL=styles.css.map */

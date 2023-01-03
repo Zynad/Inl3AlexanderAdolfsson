@@ -1,0 +1,142 @@
+$mainColor: #e8dfca;
+$secondColor:#f5efe6;
+$thirdColor: #aebdca;
+$fourthColor: #7895b2;
+$mainFont: Arial, Helvetica, sans-serif;
+$secondfont: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$thirdFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+$cardheight: 175px;
+$cardWidth:125px;
+
+header{
+    background-color: $thirdColor;
+    font-family: $secondfont;
+    text-align: center;
+    margin: auto;
+}
+body{
+    background-color: $thirdColor;
+}
+
+#game-board{
+    text-align: center;
+    background-color: $fourthColor;
+}
+#betting{
+    text-align: center;
+    font-family: $thirdFont;
+    font-size: large;
+    background-color: $fourthColor;
+    
+}
+#betting button{
+    font-family: $mainFont;
+    background-color: black;
+  color: orange;
+  opacity: 0.6;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
+  gap: 5px;
+  border-radius: 15px;
+}
+#betting button:hover{
+    opacity: 1;
+}
+
+main{
+    background-color: $thirdColor;
+}
+#dealer-cards{
+    background-color: $fourthColor;
+    font-family: $secondfont;
+    
+}
+#dealer-cards img {
+    height: $cardheight;
+    width: $cardWidth;
+    margin: 1px;
+}
+
+#your-cards{
+    background-color: $fourthColor;
+    font-family: $secondfont;
+}
+
+#your-cards img {
+    height: $cardheight;
+    width: $cardWidth;
+    margin: 1px;
+}
+
+#play-buttons button{
+    font-family: $mainFont;
+    font-size: x-large;
+    background-color: black;
+  color: orange;
+  opacity: 0.6;
+  width: 180px;
+  height: 120px;
+  padding: 5px;
+  margin: 10px;
+  gap: 5px;
+  border-radius: 15px
+}
+#play-buttons button:hover{
+    opacity: 1;
+}
+#replay-button {
+    font-family: $mainFont;
+    font-size: x-large;
+    background-color: black;
+  color: orange;
+  opacity: 0.6;
+  width: 180px;
+  height: 120px;
+  padding: 5px;
+  margin: 10px;
+  gap: 5px;
+  border-radius: 15px
+}
+
+#replay-button:hover{
+    opacity: 1;
+}
+
+.show{
+    visibility: visible;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+
+#log-in{
+    font-family: $mainFont;
+    text-align: center;
+    font-size: large;
+    background-color: $secondColor;
+}
+
+.db-button{
+    font-family: $mainFont;
+    background-color: black;
+  color: orange;
+  opacity: 0.6;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
+  gap: 5px;
+  border-radius: 15px
+}
+
+.db-button:hover{
+    opacity: 1;
+}
